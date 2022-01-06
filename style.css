@@ -1,5 +1,5 @@
 body{
-    
+    margin:0; 
 }
 section{
     margin-bottom: 100px;
@@ -26,13 +26,13 @@ p{
 }
 .half-width{
     width: 50%;
-    padding: 5%;
+    padding: 6%;
 }
 .half-width img{
-    width: 400px;
+    width: 430px;
     height: auto;
+    margin-left: 50px;
     margin-top: -120px;
-    margin-left: 100px;
 }
 .link-button{
     background-color: #FF5959;
@@ -41,13 +41,10 @@ p{
     font-size: 16px;
     color:white;
     border-radius: 5px;
-
 }
-
 .h1-middle{
     text-align: center;
 }
-
 .flexible-area .one-hird-area{
     width: 30%;
     margin-left:20px;
@@ -64,4 +61,32 @@ p{
 }
 #goals-bg{
     background-color: #FFF4D6;
+}
+.deve-wout-lmt{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 260px auto;
+
+}
+.wg-community{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 200px auto;
+}
+footer{
+    background-color: #0B0D17;
+    padding: 10px;
+}
+footer h2{
+    color: white;
+    text-align: center;
+}
+.totato-color{
+    color:tomato;
+}
+footer p{
+    color: #CED0D6;
+    text-align: center;
 }
