@@ -7,7 +7,11 @@ section{
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    line-height: 1.5rem;
+    line-height: 2.1rem;
+    padding-left: 10px;
+}
+.border-left{
+     border-left: 3px solid orangered;
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
@@ -44,6 +48,7 @@ p{
 }
 .h1-middle{
     text-align: center;
+    margin-bottom: 50px;
 }
 .flexible-area .one-hird-area{
     width: 30%;
@@ -74,6 +79,37 @@ p{
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 200px auto;
+}
+
+.my-section{
+    display: flex;
+}
+.my-section .left-column{
+    width: 40%;
+    margin-left: 5%;
+}
+.my-section .left-column ul li{
+    list-style-type: none;
+    float:left;
+    margin-left: 10px;
+}
+.my-section .left-column ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.my-section .left-column ul li a:hover{
+    font-size: 20px;
+    text-decoration: overline;
+    color: orangered;
+}
+.my-section .left-column img{
+    width: 94%;
+    height: auto;
+
+}
+.my-section .right-column{
+    width: 60%;
+
 }
 footer{
     background-color: #0B0D17;
